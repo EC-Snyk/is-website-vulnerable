@@ -17,7 +17,9 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "coverage:view": "open-cli coverage/lcov-report/index.html",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": {
     "name": "Liran Tal",
@@ -48,7 +50,8 @@
     "is-url-superb": "^3.0.0",
     "lighthouse": "5.6.0",
     "ora": "4.0.3",
-    "yargs": "15.1.0"
+    "yargs": "15.1.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
@@ -215,5 +218,6 @@
       }
     ],
     "@semantic-release/github"
-  ]
+  ],
+  "snyk": true
 }
