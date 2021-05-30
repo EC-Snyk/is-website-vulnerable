@@ -51,7 +51,7 @@
     "yargs": "15.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
+    "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^8.3.4",
     "@semantic-release/changelog": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
@@ -72,7 +72,7 @@
     "jest": "^25.1.0",
     "lint-staged": "^10.0.7",
     "lockfile-lint": "^3.0.9",
-    "open-cli": "^5.0.0",
+    "open-cli": "^6.0.0",
     "prettier": "^1.19.1",
     "semantic-release": "^17.0.1"
   },
