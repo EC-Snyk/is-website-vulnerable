@@ -74,7 +74,7 @@
     "lockfile-lint": "^3.0.9",
     "open-cli": "^5.0.0",
     "prettier": "^1.19.1",
-    "semantic-release": "^17.0.1"
+    "semantic-release": "^19.0.3"
   },
   "jest": {
     "testEnvironment": "node",
